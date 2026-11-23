@@ -35,7 +35,9 @@
 <p>The apps are open source under the MIT License, so you can inspect exactly what they do in their GitHub repositories at <a href="https://github.com/karharry">github.com/karharry</a>. The MIT License covers the source code; this policy covers your data.</p>
 
 <h2>Per-app details</h2>
-<p class="muted">No apps published yet. Each app is added here with its permissions before release.</p>
+<h3>HomeLab Management (Android)</h3>
+<p>Connects only to the machines you add (over SSH, HTTP(S) or WebSocket on your own network or VPN) to read their status and run the actions you choose. Machine addresses, credentials and a 7-day history of CPU/memory samples are stored on your device only; credentials are encrypted with the Android Keystore. No data is sent to the developer or to third parties.</p>
+<p>Permissions: <em>Internet</em> and <em>network state</em> (to reach your machines), and background-work/boot permissions used by the home-screen widget to refresh machine status about every 15 minutes. Wake-on-LAN sends a UDP packet on your local network. Source code: <a href="https://github.com/karharry/HomeLabManagement-Android">github.com/karharry/HomeLabManagement-Android</a>.</p>
 
 <h2>Changes</h2>
 <p>Changes to this policy are posted on this page with a new date. The history is public in this repository.</p>
